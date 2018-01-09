@@ -7,6 +7,8 @@ target 'MyFirstAppWithMyFirstPod' do
 
   # Pods for MyFirstAppWithMyFirstPod
    pod 'FirstTestPod', '0.1.0'
+   pod 'Fabric'
+   pod 'Crashlytics'
 
 
   target 'MyFirstAppWithMyFirstPodTests' do

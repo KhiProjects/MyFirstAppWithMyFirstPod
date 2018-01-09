@@ -141,6 +141,7 @@
 				0A4909702003C85E000D3567 /* Resources */,
 				92FD42B7530D0EA61E6549A8 /* [CP] Embed Pods Frameworks */,
 				F8219C7D673081586EC51AA0 /* [CP] Copy Pods Resources */,
+				0A4909952003DE27000D3567 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -235,6 +236,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0A4909952003DE27000D3567 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 111111111111111111111111111111111 22222222222222222222222222222222222222222222222222222";
+		};
 		41CE387A68C1D081EEF0A9EC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -558,6 +572,7 @@
 				0A4909912003C85E000D3567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A4909922003C85E000D3567 /* Build configuration list for PBXNativeTarget "MyFirstAppWithMyFirstPodTests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +581,7 @@
 				0A4909942003C85E000D3567 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
